@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user=scalable=no">
+    <title>Experiencia</title>
+  </head>
+  <body>
+    <header>
+      <svg width="300" height="200" viewBox="0 0 300 200">
+      <image xlink:href="imagenes/logo.svg" width="300px" height="200"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+       <form>
+         <fieldset>
+           <h2><legend>Datos Personales</legend></h2>
+            <h3>
+            <p>
+              <label for="Nombres">Nombres:</label>
+              <br>
+              <input type="text" id="Nombres" readonly value="Bismarck Omar">
+            </p>
+            <p>
+              <label for="Apellidos">Apellidos:</label>
+              <br>
+              <input type="text" id="Apellidos" readonly value="Cuiza Pacheco">
+            </p>
+            <p>
+              <label for="FechaNacimiento">Fecha:</label>
+              <br>
+              <input type="date" id="FechaNacimiento" placeholder="19/11/1980">
+            </p>
+            <p>
+              <label for="LugarNacimiento">Lugar de Nacimiento:</label>
+              <br>
+              <input type="text" id="LugarNacimiento" readonly value="La Paz-Bolivia">
+            </p>
+            </h3>
+         </fieldset>
+       </form>
+       <nav>
+         <h2>
+           <a href="../Inicio.html">Volver</a>
+         </h2>
+       </nav>
+       <h2>Experiencia</h2>
+       <h3>Video</h3>
+       <video controls width="500px" height="500px">
+       <source src="video/bis_vid.mp4" type="video/mp4">
+       Texto cuando tu browser no soporta video
+       </video>
+       <h3>Audio</h3>
+       <p>Descripccion del audio</p>
+       <audio controls autoplay>
+        <source src="audio/bis_aud.mp3" type="audio/mp3">
+         Texto cuando tu browser no soporta audio
+       </audio>
+    </header>
+    <footer>
+      <p>
+        <label for="email">Email<label>
+        <br>
+        <input type="email" id="email" readonly value="bis_omar@hotmail.com">
+      </p>
+      <p>
+        <label for="Telefono">Telefono</label>
+        <br>
+        <input type="telf" id="Telefono"readonly value="76240915">
+      </p>
+      <p>
+       <label for="Direccion">Direccion</label>
+       <br>
+       <input type="dir" id="Direccion" readonly value="Calle Simon Aguirre N°2155 Z. Pampahasi"
+      </p>
+    </footer>
+  </body>
+</html>

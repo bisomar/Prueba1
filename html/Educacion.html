@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user=scalable=no">
+    <title>Educacion</title>
+  </head>
+  <body>
+    <header>
+      <svg width="300" height="200" viewBox="0 0 300 200">
+      <image xlink:href="imagenes/logo.svg" width="300px" height="200"></image>
+      </svg>
+      <h1>Hoja de Vida</h1>
+       <form>
+         <fieldset>
+           <h2><legend>Datos Personales</legend></h2>
+            <h3>
+            <p>
+              <label for="Nombres">Nombres:</label>
+              <br>
+              <input type="text" id="Nombres" readonly value="Bismarck Omar">
+            </p>
+            <p>
+              <label for="Apellidos">Apellidos:</label>
+              <br>
+              <input type="text" id="Apellidos" readonly value="Cuiza Pacheco">
+            </p>
+            <p>
+              <label for="FechaNacimiento">Fecha:</label>
+              <br>
+              <input type="date" id="FechaNacimiento" placeholder="19/11/1980">
+            </p>
+            <p>
+              <label for="LugarNacimiento">Lugar de Nacimiento:</label>
+              <br>
+              <input type="text" id="LugarNacimiento" readonly value="La Paz-Bolivia">
+            </p>
+            </h3>
+         </fieldset>
+       </form>
+       <nav>
+         <h2>
+           <a href="../Inicio.html">Volver</a>
+        </h2>
+       </nav>
+       <h2>Educaion</h2>
+       <table border="1">
+         <tr>
+           <th>Año</th>
+           <th>Institucion</th>
+           <th>Nmbre del Curso</th>
+           <th>Lugar</th>
+           <th>Culmino</th>
+         </tr>
+         <tr>
+           <td>2018</td>
+           <td>EGPP</td>
+           <td>Aymara Basico</td>
+           <td>La Paz</td>
+           <td>Si</td>
+         </tr>
+         <tr>
+           <td>2018</td>
+           <td>Consultora Orion</td>
+           <td>Ofimatica para Profesionales</td>
+           <td>La Paz</td>
+           <td>Si</td>
+         </tr>
+         <tr>
+           <td>2018</td>
+           <td>NEMABOL</td>
+           <td>Curso Ley 1178</td>
+           <td>La Paz</td>
+           <td>Si</td>
+         </tr>
+       </table>
+       <form>
+         <h2><legend>Datos Personales</legend></h2>
+         <p>
+           <label for="age">Año: </label>
+           <br>
+           <select name="age">
+             <option value="1">2018</option>
+             <option value="1">2017</option>
+             <option value="1">2016</option>
+             <option value="1">2015</option>
+           </select>
+         </p>
+         <p>
+           <label for="Institucion">Institucion:</label>
+           <input type="text" required>
+         </p>
+         <p>
+           <label for="NombreCurso">Nombre del Curso:</label>
+           <input type="text" required>
+         </p>
+         <p>
+           <label for="Lugar">Lugar:</label>
+           <input type="text" required>
+         </p>
+         <p>
+           <input type="reset" value="Limpiar Formulario">
+         </p>
+         <p>
+           <input type="submit" value="Enviar">
+         </p>
+       </form>
+   </header>
+       <footer>
+         <p>
+           <label for="email">Email<label>
+           <br>
+           <input type="email" id="email" readonly value="bis_omar@hotmail.com">
+         </p>
+         <p>
+           <label for="Telefono">Telefono</label>
+           <br>
+           <input type="telf" id="Telefono"readonly value="76240915">
+         </p>
+         <p>
+          <label for="Direccion">Direccion</label>
+          <br>
+          <input type="dir" id="Direccion" readonly value="Calle Simon Aguirre N°2155 Z. Pampahasi"
+         </p>
+       </footer>
+  </body>
+</html>
